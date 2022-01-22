@@ -42,13 +42,13 @@ export default function TextForm(props) {
             onChange={handleOnChange} style={{backgroundColor: props.mode === 'dark'?'grey':'white', color: props.mode=== 'dark'?'white':'#042743'}}
           />
         </div>
-        <button className="btn btn-primary mx-1" onClick={handleUpEvent}>
+        <button className="btn btn-primary mx-1 my-1" onClick={handleUpEvent}>
           Convet to Uppercase
         </button>
-        <button className="btn btn-primary mx-1" onClick={handleLowEvent}>
+        <button className="btn btn-primary mx-1 my-1" onClick={handleLowEvent}>
           Convet to Lowercase
         </button>
-        <button className="btn btn-primary mx-1" onClick={handleClearEvent}>
+        <button className="btn btn-primary mx-1 my-1" onClick={handleClearEvent}>
           Clear Text
         </button>
       </div>
